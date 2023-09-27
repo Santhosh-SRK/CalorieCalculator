@@ -36,3 +36,90 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensures the container takes the full viewport height */
+}
+
+.CalorieCalculator {
+  text-align: center;
+  width: 300px;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+  box-shadow: 4px 6px 16px 8px lightskyblue;
+  border: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.CalorieCalculator h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: lightblue;
+}
+
+.CalorieCalculator label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.CalorieCalculator input[type="number"],
+.CalorieCalculator select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 2px lightskyblue;
+  margin-top: 10px;
+}
+
+.CalorieCalculator button {
+  display: block;
+  width: 55%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color:white;
+  /*box-shadow: 1px 1px 1px 4px lightblue;*/
+  color: #080808;
+  border:1px solid lightblue;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;  
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.CalorieCalculator button:hover {
+  background-color: lightblue;
+}
+
+.CalorieCalculator p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.CalorieCalculator button:nth-child(1) {
+  margin-right: 20px; 
+}
+
+
+.CalorieCalculator button:nth-child(2) {
+  background-color:white;
+}
+
+.CalorieCalculator button:nth-child(2):hover {
+  background-color: lightblue; /* Darker red on hover */
+}
