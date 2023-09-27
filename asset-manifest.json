@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Santhosh-SRK/CalorieCalculator/static/css/main.6431b235.css",
+    "main.js": "/Santhosh-SRK/CalorieCalculator/static/js/main.8ca7c210.js",
+    "static/js/787.d0b3090c.chunk.js": "/Santhosh-SRK/CalorieCalculator/static/js/787.d0b3090c.chunk.js",
+    "index.html": "/Santhosh-SRK/CalorieCalculator/index.html",
+    "main.6431b235.css.map": "/Santhosh-SRK/CalorieCalculator/static/css/main.6431b235.css.map",
+    "main.8ca7c210.js.map": "/Santhosh-SRK/CalorieCalculator/static/js/main.8ca7c210.js.map",
+    "787.d0b3090c.chunk.js.map": "/Santhosh-SRK/CalorieCalculator/static/js/787.d0b3090c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6431b235.css",
+    "static/js/main.8ca7c210.js"
+  ]
+}
